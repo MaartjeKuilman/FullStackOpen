@@ -5,7 +5,7 @@ sequenceDiagram
 
     
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
-    activite server
+    activate server
     server -->>browser: HTML document
     deactivate server    	
 
